@@ -1,12 +1,41 @@
-# Ignore all .log files
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore log files
 *.log
 
 # Ignore temporary files
 *.tmp
 
-# Ignore directories
+# Ignore data and results directories
 data/
 results/
 
-# Ignore specific files
-secret.txt
+# Ignore configuration files
+config.yaml
+.env
+
+# Ignore compiled binaries
+*.o
+*.a
+*.out
+
+# Ignore slurm files
+*.slurm
+*.pbs
+
+# Ignore scractch directory
+scratch/
+
