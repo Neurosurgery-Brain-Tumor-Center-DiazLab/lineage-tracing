@@ -40,11 +40,11 @@ zcat "${cellranger_dir}/outs/filtered_feature_bc_matrix/barcodes.tsv.gz" | sed '
 barcode_10x="${intermediate_dir}/barcode.txt"
 
 # Get the list of samples
-samples=$(ls "${intermediate_dir}"/*sub*_homdomain.fastq.gz)
+samples=$(ls "${intermediate_dir}"/*sub*_homdomain.fasta)
 
 # Run seqkit grep with parameter s for sequence, r regex, m mismatch, j threads, f file, o output
 for sample in $samples; do
-    output_file="${sample%.fastq.gz}_10x_barcode.fastq.gz"
+    output_file="${sample%.fastq.gz}_10x_barcode.fasta"
     seqkit grep -s -r -m 0 -j 12 -f "${barcode_10x}" "${sample}" -o "${output_file}" &
 done
 

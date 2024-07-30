@@ -22,6 +22,7 @@ venv/
 # Ignore data and results directories
 data/
 results/
+intermediate/
 
 # Ignore configuration files
 config.yaml
@@ -39,3 +40,7 @@ config.yaml
 # Ignore scractch directory
 scratch/
 
+# Ignore extra files
+github
+github.pub
+test_data/
