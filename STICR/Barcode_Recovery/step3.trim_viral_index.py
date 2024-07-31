@@ -30,9 +30,8 @@ samples.sort()
 for sample in samples:
         read2_fastq = read2_fastqs[sample]
         command = cutadapt + " -j " + str(thread) + " -g " + path.VIRAL_INDEX + " -O 8 --action none -o " + outputdir + sample + ".cutadapt.trimmed.fastq --untrimmed-output " + outputdir + sample + ".cutadapt.untrimmed.fastq " + read2_fastq
+        print(command)
         result = subprocess.run(command, shell=True, capture_output=True, text=True)
-        if result.returncode == 0:
-            print("Command succeeded:", result.stdout)
-        else:
-            print("Command failed:", result.stderr)
+        if result.returncode == 0: print("Command succeeded:", result.stdout)
+        else: print("Command failed:", result.stderr)
 

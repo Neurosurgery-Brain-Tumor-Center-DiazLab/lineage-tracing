@@ -22,7 +22,7 @@ ALIGNED_DIR = OUTPUT_DIR + "Step4.Aligned_reads/"
 COLLAPSED_DIR = OUTPUT_DIR + "Step5.Collapsed_barcodes/"
 COUNT_DIR = OUTPUT_DIR + "Step6.Count_barcodes/"
 FILTER_DIR = OUTPUT_DIR + "Step7.Filter_barcodes/"
-VALID_DIR = OUTPUT_DIR + "Step8.Valid_barcodes/"
+HISTOGRAM_DIR = OUTPUT_DIR + "Step8.Histogram_barcodes/"
 
 # PARENT LIBRARY (10x Cell Barcodes from Parent Sample)
 BARCODE_DIR = ""
