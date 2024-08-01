@@ -1,9 +1,0 @@
-2-4alignment0or1indel.py for LAML input
-LAML code is added at the end of step2alignment3phylogeny.rtf 
-For LAML
-https://github.com/raphael-group/LAML, click latest, download LAML-0.0.4-py3-none-any.whl
-conda activate daisy
-pip install /Users/masahirookada/LAML-0.0.4-py3-none-any.whl
-In addition to this, mosek license is required.
-Access to below. Apply Academic License, receive email. Please select agree. You will recive Mosel.lic in the next email and download. Create folder like this in MAC, /Users/masahirookada/mosek/mosek.lic
-https://www.mosek.com/products/academic-licenses/Personal
