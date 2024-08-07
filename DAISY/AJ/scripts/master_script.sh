@@ -69,6 +69,7 @@ fi
 echo "Read length step completed successfully."
 
 # Run step 3: grepping the TAGTTACGCCAAGCTTGAATTC in the merged, paired, unpaired files
+# AD: the homodomain sequence should be a parameter
 "$script_dir/homo_match.sh" -m "$intermediate_dir"
 
 # # # Check if homo domain step was successful
