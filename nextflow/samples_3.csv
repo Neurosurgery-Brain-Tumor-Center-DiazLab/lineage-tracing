@@ -1,0 +1,3 @@
+sample_id,fastq1,fastq2
+Day0_sub1,/diazlab/data3/.abhinav/projects/DAISY/lineage-tracing/test_data3/day0/SB28_DAISY_DAY0_sub1_A1_S120_L007_R1_001_test.fastq.gz,/diazlab/data3/.abhinav/projects/DAISY/lineage-tracing/test_data3/day0/SB28_DAISY_DAY0_sub1_A1_S120_L007_R2_001_test.fastq.gz
+Day13_sub1,/diazlab/data3/.abhinav/projects/DAISY/lineage-tracing/test_data3/day13/SB28_DAISY_DAY13_sub1_A2_S121_L007_R1_001_test.fastq.gz,/diazlab/data3/.abhinav/projects/DAISY/lineage-tracing/test_data3/day13/SB28_DAISY_DAY13_sub1_A2_S121_L007_R2_001_test.fastq.gz
