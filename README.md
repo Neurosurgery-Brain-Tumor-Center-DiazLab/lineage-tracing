@@ -1,4 +1,4 @@
-# lineage-tracing
+# Genetic Lineage Tracing
 We are performing the genetic lineage tracing in patient avatars via barcoding. The scRNA-seq identifying clonal tracing adopting the static barcode system (STICR) and using the dual acting inverted site array for the mutable barcode (DAISY). 
 
 ### Day0 
